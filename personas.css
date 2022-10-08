@@ -1,0 +1,90 @@
+
+body {
+    background-color: rgba(34, 221, 159, 0.33);
+}
+
+.container {
+    width: 90vw;
+    position: relative;
+    left: 2vw;
+    background-color: white;
+    padding: 2rem;
+}
+
+h1 {
+    font-family: josefin-sans;
+    font-size: 4rem;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+}
+
+h2 {
+    font-family: josefin-sans;
+    font-size: 2.5rem;
+    font-weight: 700;
+    font-style: normal;
+}
+
+p {
+    font-family: josefin-sans;
+    font-size: 1.4rem;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+
+li {
+    font-family: josefin-sans;
+    font-size: 1.3rem;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 1rem;
+}
+
+#diagram {
+    width: 70%;
+    height: 80vh;
+    object-fit: cover;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.interviews {
+    margin-bottom: 9rem;
+}
+
+.personas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 10rem;
+}
+
+#mario {
+    width: 60%;
+    /* margin: 2rem; */
+    position: relative;
+    left: -7vw;
+}
+
+#paloma {
+    width: 60%;
+    position: relative;
+    left: 10vw;
+}
+
+/* .storyboard {
+    display: flex;
+    justify-content: center;
+} */
+
+/* .storyboard h2 {
+    text-align: center;
+    margin: 1rem;
+} */
+
+#storyboard {
+    width: 95%;
+}
